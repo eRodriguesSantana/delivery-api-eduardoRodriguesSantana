@@ -1,0 +1,74 @@
+!SESSION 2026-01-13 22:12:18.544 -----------------------------------------------
+eclipse.buildId=4.38.0.202512192126
+java.version=25.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-13 22:12:20.402
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-13 22:12:47.194
+!MESSAGE Logback config file: /home/student/Workspaces/sts/delivery-api/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-01-13 22:12:47.502
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-13 22:12:47.502
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-01-13 22:12:47.924
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-13 22:12:47.924
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.tips.ide 4 0 2026-01-13 22:12:51.494
+!MESSAGE Could not read or write the state location /home/student/.eclipse/org.eclipse.tips.state
+!STACK 0
+java.io.IOException: Could not read or write the state location /home/student/.eclipse/org.eclipse.tips.state
+	at org.eclipse.tips.ide.internal.IDETipManager.getStateLocation(IDETipManager.java:288)
+	at org.eclipse.tips.ide.internal.TipsPreferences.getStateLocation(TipsPreferences.java:146)
+	at org.eclipse.tips.ide.internal.TipsPreferences.getReadState(TipsPreferences.java:125)
+	at org.eclipse.tips.ide.internal.IDETipManager.<init>(IDETipManager.java:61)
+	at org.eclipse.tips.ide.internal.IDETipManager.<clinit>(IDETipManager.java:67)
+	at org.eclipse.tips.ide.internal.TipsStartupService.loadProviders(TipsStartupService.java:95)
+	at org.eclipse.tips.ide.internal.TipsStartupService.start(TipsStartupService.java:79)
+	at org.eclipse.tips.ide.internal.TipsStartupService$1.run(TipsStartupService.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-01-13 22:14:05.155 -----------------------------------------------
+eclipse.buildId=4.38.0.202512192126
+java.version=25.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-13 22:14:07.073
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-13 22:14:10.392
+!MESSAGE Logback config file: /home/student/Workspaces/sts/delivery-api/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-01-13 22:14:10.846
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-13 22:14:10.847
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-01-13 22:14:11.175
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-13 22:14:11.175
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.tips.ide 4 0 2026-01-13 22:14:14.753
+!MESSAGE Could not read or write the state location /home/student/.eclipse/org.eclipse.tips.state
+!STACK 0
+java.io.IOException: Could not read or write the state location /home/student/.eclipse/org.eclipse.tips.state
+	at org.eclipse.tips.ide.internal.IDETipManager.getStateLocation(IDETipManager.java:288)
+	at org.eclipse.tips.ide.internal.TipsPreferences.getStateLocation(TipsPreferences.java:146)
+	at org.eclipse.tips.ide.internal.TipsPreferences.getReadState(TipsPreferences.java:125)
+	at org.eclipse.tips.ide.internal.IDETipManager.<init>(IDETipManager.java:61)
+	at org.eclipse.tips.ide.internal.IDETipManager.<clinit>(IDETipManager.java:67)
+	at org.eclipse.tips.ide.internal.TipsStartupService.loadProviders(TipsStartupService.java:95)
+	at org.eclipse.tips.ide.internal.TipsStartupService.start(TipsStartupService.java:79)
+	at org.eclipse.tips.ide.internal.TipsStartupService$1.run(TipsStartupService.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
