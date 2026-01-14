@@ -12,8 +12,7 @@
 	<artifactId>delivery-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>delivery-api</name>
-	<description>Aplicação de Delivery Teste</description>
-	<url/>
+	<description>Aplicação de Delivery</description>
 	<licenses>
 		<license/>
 	</licenses>
