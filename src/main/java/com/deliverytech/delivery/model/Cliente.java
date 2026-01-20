@@ -38,7 +38,7 @@ public class Cliente {
 
 	private boolean ativo;
 
-	@OneToMany(mappedBy = "clientes")
+	@OneToMany(mappedBy = "cliente")
 	private List<Pedido> pedidos = new ArrayList<>();
 
 }
